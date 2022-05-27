@@ -11,4 +11,4 @@ elif s>=0.7:
 elif s>=0.6:
     print('D')
 elif s<0.6:
-    print('F')
+    print('F')n
