@@ -10,3 +10,4 @@ colonpos = fh.find('X-DSPAM-Confidence:')
 host = fh[colonpos+1:]
 avg = host/count
 print('Average spam confidence: ')
+
