@@ -7,10 +7,7 @@ def computepay(h,r):
         p = h * r
     return p
     
-hrs = input("Enter Hours:")
-hr = float(hrs)
-rphrs = input("Enter rate per hour:")
-rphr = float(rphrs)
-
+hr = float(input("Enter Hours:"))
+rphr = float(input("Enter rate per hour:"))
 p = computepay(hr,rphr)
 print('Pay',p)

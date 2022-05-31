@@ -1,10 +1,8 @@
 # Conditional Execution
 
 #hrs = input("Enter hours? ")
-hrs = input("Enter Hours:")
-h = float(hrs)
-rate_per_hour = input("Enter rate per hour:")
-r = float(rate_per_hour)
+h = float(input("Enter Hours:"))
+r = float(input("Enter rate per hour:"))
 if h<=40:
   print(h * r)
 elif h > 40:
