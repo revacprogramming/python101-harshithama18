@@ -19,4 +19,5 @@ if inp.startswith('X-DSPAM-Confidence:    '):
      temp = float(host)
      total = total + temp
 avg = total/count
-print('Average spam confidence: %d',avg)                                                                                                                                              
+print('Average spam confidence: %d',avg)   
+print
