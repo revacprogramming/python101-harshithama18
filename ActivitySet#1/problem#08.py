@@ -20,4 +20,3 @@ if inp.startswith('X-DSPAM-Confidence:    '):
      total = total + temp
 avg = total/count
 print('Average spam confidence: %d',avg)   
-print
