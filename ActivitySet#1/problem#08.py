@@ -5,18 +5,14 @@
 
 fname = input("Enter file name: ")
 fh = open(fname)
+count = 0
+total = 0
 for line in fh:
-    line = line.rstrip()
-    if not line.startswith('X-DSPAM-Confidence:    '): 
+    if not line.startswith('X-DSPAM-Confidence: '): 
         continue
-        numbers = line.split()
-        store = line[:]
-if inp.startswith('X-DSPAM-Confidence:    '):
-    while True:
-     total = 0
-     colonpos = inp.find(':')
-     host = inp[colonpos+4:]
-     temp = float(host)
-     total = total + temp
+  t = find.line(" ")
+  
+  count+ = 1
+  total+ = number  
 avg = total/count
-print('Average spam confidence: %d',avg)   
+print('Average spam confidence: %d',avg)
