@@ -22,6 +22,7 @@ print("Minimum is",smallest)
 
 
 
+
 #break - exit from the loop
 #pass - pass on to the next block of ststements
 #continue - to start the next iteration
