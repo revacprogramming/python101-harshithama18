@@ -16,3 +16,4 @@ for line in fh:
   total+ = number  
 avg = total/count
 print('Average spam confidence: %d',avg)
+print("Hello world")
