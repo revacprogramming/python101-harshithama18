@@ -10,10 +10,9 @@ total = 0
 for line in fh:
     if not line.startswith('X-DSPAM-Confidence: '): 
         continue
-  t = find.line(" ")
+t = find.line(" ")
   
   count+ = 1
   total+ = number  
 avg = total/count
 print('Average spam confidence: %d',avg)
-print("Hello world")
