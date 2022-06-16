@@ -15,4 +15,4 @@ t = find.line(" ")
   count+ = 1
   total+ = number  
 avg = total/count
-print(f'Average spam confidence{avg})
+
