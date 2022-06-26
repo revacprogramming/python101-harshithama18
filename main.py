@@ -2,4 +2,4 @@
 large = a
 if a>c:=b 
     else c
-if a>fcguk
+if a>f
