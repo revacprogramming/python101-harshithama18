@@ -17,4 +17,3 @@ for line in fh:
         #count =float(count)
 avg = total/count
 print(f'Average spam confidence: {avg}') 
-guj
