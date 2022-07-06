@@ -1,3 +1,4 @@
+#Conditional Execution 
 score = input("Enter Score: ")
 s=float(score)
 if 0.0<s<1.0:
