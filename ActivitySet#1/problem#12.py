@@ -1,12 +1,15 @@
 # Regular Expressions
-# https://www.py4e.com/lessons/regex
 
 import re
-fname = input("Enter ")
-hand = open(fname)
+
+hand = input('enter')
+fh = open(hand)
 for line in hand:
     line = line.rstrip()
-    if re.search('^F..m:.+za', line):
-        print(line)
+    x = re.findall('\S+@\S+', line)
+    if len(x) > 0:
+        print(x)
+
+
 
 
