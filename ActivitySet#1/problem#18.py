@@ -18,4 +18,3 @@ x= re.findall("[0-9]+",y)
 for i in x:
     i=int(i)
 sums = sums + i
-print(sums)
